@@ -5,5 +5,5 @@ const showMenu = () => {
     .classList.toggle("extend");
 
   // Show the Menu
-  document.querySelector(".header .links").classList.toggle("show");
+  document.querySelector(".header .links ul").classList.toggle("show");
 };
